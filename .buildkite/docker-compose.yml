@@ -1,0 +1,6 @@
+smokescreen:
+  build: .
+  volumes:
+    - ./:/go/src/github.com/buildkite/smokescreen
+  environment:
+    - GITHUB_RELEASE_ACCESS_TOKEN
