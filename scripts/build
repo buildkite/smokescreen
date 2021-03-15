@@ -22,7 +22,7 @@ gzip -c dist/smokescreen-darwin-arm64 > dist/smokescreen-darwin-arm64.gz
 echo ""
 
 echo "Compiling for Intel Linux"
-GOOS=linux GOARCH=amd64 go build -o dist/smokescreen-linux-amd64
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o dist/smokescreen-linux-amd64
 chmod +x dist/smokescreen-linux-amd64
 echo "👍  dist/smokescreen-linux-amd64"
 gzip -c dist/smokescreen-linux-amd64 > dist/smokescreen-linux-amd64.gz
