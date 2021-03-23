@@ -1,4 +1,4 @@
-# Smokescreen ![Test](https://github.com/stripe/smokescreen/workflows/Test/badge.svg?branch=master&event=push)
+# Smokescreen [![Build status](https://badge.buildkite.com/0d59551a64ba126b999ce6327651ccb28b1848ea85bd77a57f.svg)](https://buildkite.com/buildkite/smokescreen?branch=master)
 
 Smokescreen is a HTTP CONNECT proxy. It proxies most traffic from Buildkite to the external world (e.g., webhooks).
 
