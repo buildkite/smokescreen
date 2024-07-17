@@ -1,5 +1,7 @@
 # Smokescreen [![Build status](https://badge.buildkite.com/0d59551a64ba126b999ce6327651ccb28b1848ea85bd77a57f.svg)](https://buildkite.com/buildkite/smokescreen?branch=master)
 
+> Archived in favour of https://github.com/buildkite/buildkite-smokescreen
+
 Smokescreen is a HTTP CONNECT proxy. It proxies most traffic from Buildkite to the external world (e.g., webhooks).
 
 Smokescreen is used at Buildkite in local development, CI builds and in production as an internal proxy. This fork is used to package and release Smokescreen binaries for the different platforms we target. For information about Smokescreen itself, please [check out the full upstream repository](https://github.com/stripe/smokescreen). We manage the production Smokescreen proxy as a [Fargate Docker image in the buildkite/ops repository](https://github.com/buildkite/ops/tree/main/docker/smokescreen).
